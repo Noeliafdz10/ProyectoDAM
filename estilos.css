@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+}
+
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.logo {
+    width: 100%;
+    min-height: 150px;
+    background: #C0ECFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C0ECFF;
+}
+
+.navegacion {
+    width: 100%;
+    border: 1px solid black;
+}
+
+ul.menu {
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #C0ECFF;
+    border-bottom: none;
+}
+
+.menu::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.menu>li {
+    background-color: #C0ECFF;
+    float: left;
+    width: 20%;
+}
+
+.menu>li>a {
+    padding: .3em;
+    display: block;
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+    font-family: Cambria;
+}
+
+.menu>li>a:hover {
+    background-color: #57B7EB;
+}
+
+.publicidad {
+    background-color: #C0ECFF;
+    border-radius: 20%;
+    width: 250px;
+    text-align: center;
+    border: 3px solid black;
+    padding: 5px;
+    position: fixed;
+    bottom: 2em;
+    right: 0;
+
+}
+
+.calidad {
+    text-align: center;
+    font-size: 30px;
+}
+
+.fotos_inicio{
+    
+}
+
+.opiniones{
+    display: grid;
+}
+
+
+.nuestroEquipo {
+    text-align: center;
+    font-size: 30px;
+    background-color: aquamarine;
+    border-radius: 50%;
+
+
+}
+
+.SobreNosotros,
+p {
+    text-align: center;
+}
+
+.videocorporativo {
+    text-align: center;
+}
+
+
+table,
+tr,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+}
+
+.tablas_productos {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.dondeEstamos {
+    text-align: center;
+}
+
+.Formulario {
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 20px;
+}
+
+.footer__container {
+    width: 100%;
+    min-height: 150px;
+    background: #C0ECFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fc__logo {}
+
+.fc__social {
+    margin-left: 50px;
+}
+
+.fc__social_text {}
+
+.fc__social_logos {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fc__social_logo {
+    width: 50px;
+    height: 50px;
+
+}
+
+.fc__social_logo img {
+    width: 50px;
+    height: 50px;
+}

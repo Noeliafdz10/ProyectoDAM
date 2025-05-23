@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Frutas de calidad al mejor precio">
+    <meta name="keywords" content="fruta, madrid, calidad"> <!--indicar palabras clave para los motores de busqueda-->
+    <meta name="author" content="Noelia Fernandez De Pablo">
+    <title>MiFruta</title>
+    <link rel="stylesheet" href="estilos.css" type="text/css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" alt="Logotipo" title="Logotipo" width="160">
+        </div>
+        <hr>
+        <hr>
+        <nav class="navegacion">
+            <ul class="menu">
+                <li><a href="inicio.html" title="Inicio">INICIO</a></li>
+                <li><a href="quienes_somos.html" title="¿Quienes Somos?">¿QUIENES SOMOS?</a></li>
+                <li><a href="productos_servicios.html" title="Productos y Servicios">PRODUCTOS Y SERVICIOS</a></li>
+                <li><a href="contacto.html" title="Contacto">CONTACTO</a></li>
+                <li><a href="trabaja.html" title="Trabaja con nosotros">TRABAJA CON NOSOTROS</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <section>
+            <article>
+                <figure class="Trabaja">
+                    <br>
+                    <h1>Trabaja Con Nosotros</h1>
+                    <form method="get" action="#">
+                        <fieldset>
+                            <legend>Datos personales</legend>
+                            <label for="nombre">Nombre</label><br>
+                            <input type="text" name="nombre" id="nombre"><br>
+                            <label for="apellidos">Apellidos</label><br>
+                            <input type="text" name="apellidos" id="apellidos"><br>
+                            <label for="dni">Dni</label><br>
+                            <input type="text" name="dni" id="dni"><br>
+                            <label for="sexo">Sexo</label><br>
+                            <input type="radio" name="sexo" id="sexo" value="M"> Mujer
+                            <input type="radio" name="sexo" id="sexo" value="H"> Hombre <br><br>
+                            <label for="fecha">Fecha de Nacimiento:</label>
+                            <input type="date" name="fecha" id="fecha" required><br><br>
+                            <label for="ciudad">Ciudad:</label>
+                            <input type="text" name="ciudad" id="ciudad" required><br><br>
+                            <label for="nacionalidad">Nacionalidad:</label>
+                            <input type="text" name="nacionalidad" id="nacionalidad" required><br><br>
+                            <label for="telefono">Código Postal:</label>
+                            <input type="number" name="cp" id="cp" placeholder="xxxxx" size="5" maxlength="5"
+                                required><br><br>
+                            <label for="telefono">Teléfono:</label>
+                            <input type="tel" name="telefono" id="telefono" pattern="[0-9]{9}" placeholder="xxxxxxxxx"
+                                size="9" maxlength="9" required><br><br>
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" id="email" required><br><br>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Formación</legend>
+                            <label for="f1">1:</label>
+                            <input type="text" name="f1" id="f1" size="100" maxlength="10" value=""
+                                placeholder="Introduzca formación..." required>
+                            <label for="fecha">Fecha Inicio</label>
+                            <input type="date" name="fechaI" id="fechaI" required>
+                            <label for="fecha">Fecha Final</label>
+                            <input type="date" name="fechaF" id="fechaF" required><br><br>
+                            <label for="f1">2:</label>
+                            <input type="text" name="f2" id="f2" size="100" maxlength="10" value=""
+                                placeholder="Introduzca formación...">
+                            <label for="fecha">Fecha Inicio</label>
+                            <input type="date" name="fechaI1" id="fechaI2">
+                            <label for="fecha">Fecha Final</label>
+                            <input type="date" name="fechaF1" id="fechaF2"><br><br>
+                            <label for="f1">3:</label>
+                            <input type="text" name="f3" id="f3" size="100" maxlength="10" value=""
+                                placeholder="Introduzca formación..." required>
+                            <label for="fecha">Fecha Inicio</label>
+                            <input type="date" name="fechaI3" id="fechaI3" required>
+                            <label for="fecha">Fecha Final</label>
+                            <input type="date" name="fechaF3" id="fechaF3" required><br><br>
+                            <label for="f1">4:</label>
+                            <input type="text" name="f4" id="f4" size="100" maxlength="10" value=""
+                                placeholder="Introduzca formación..." required>
+                            <label for="fecha">Fecha Inicio</label>
+                            <input type="date" name="fechaI4" id="fechaI4" required>
+                            <label for="fecha">Fecha Final</label>
+                            <input type="date" name="fechaF4" id="fechaF4" required><br><br>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Idiomas</legend>
+                            <label for="idioma1">Idioma 1:</label>
+                            <input type="text" name="idioma1" id="idioma1">
+                            <label for="hablado_idioma1">Hablado</label>
+                            <select name="hablado_idioma1" id="hablado_idioma1">
+                                <option value="" disabled selected>- selecciona -</option>
+                                <option value="nada">Nada</option>
+                                <option value="regular">Regular</option>
+                                <option value="bien">Bien</option>
+                                <option value="excelente">Excelente</option>
+                            </select>
+                            <label for="leido_idioma1">Leído</label>
+                            <select name="leido_idioma1" id="leido_idioma1">
+                                <option value="" disabled selected>- selecciona -</option>
+                                <option value="nada">Nada</option>
+                                <option value="regular">Regular</option>
+                                <option value="bien">Bien</option>
+                                <option value="excelente">Excelente</option>
+                            </select>
+                            <label for="escrito_idioma1">Escrito</label>
+                            <select name="escrito_idioma1" id="escrito_idioma1">
+                                <option value="" disabled selected>- selecciona -</option>
+                                <option value="nada">Nada</option>
+                                <option value="regular">Regular</option>
+                                <option value="bien">Bien</option>
+                                <option value="excelente">Excelente</option>
+                            </select><br><br>
+                            <label for="idioma2">Idioma 2:</label>
+                            <input type="text" name="idioma2" id="idioma2">
+                            <label for="hablado_idioma2">Hablado</label>
+                            <select name="hablado_idioma2" id="hablado_idioma2">
+                                <option value="" disabled selected>- selecciona -</option>
+                                <option value="nada">Nada</option>
+                                <option value="regular">Regular</option>
+                                <option value="bien">Bien</option>
+                                <option value="excelente">Excelente</option>
+                            </select>
+                            <label for="leido_idioma2">Leído</label>
+                            <select name="leido_idioma2" id="leido_idioma2">
+                                <option value="" disabled selected>- selecciona -</option>
+                                <option value="nada">Nada</option>
+                                <option value="regular">Regular</option>
+                                <option value="bien">Bien</option>
+                                <option value="excelente">Excelente</option>
+                            </select>
+                            <label for="escrito_idioma2">Escrito</label>
+                            <select name="escrito_idioma2" id="escrito_idioma2">
+                                <option value="" disabled selected>- selecciona -</option>
+                                <option value="nada">Nada</option>
+                                <option value="regular">Regular</option>
+                                <option value="bien">Bien</option>
+                                <option value="excelente">Excelente</option>
+                            </select><br><br>
+                            <label for="idioma3">Idioma 3:</label>
+                            <input type="text" name="idioma3" id="idioma3">
+                            <label for="hablado_idioma3">Hablado</label>
+                            <select name="hablado_idioma3" id="hablado_idioma3">
+                                <option value="" disabled selected>- selecciona -</option>
+                                <option value="nada">Nada</option>
+                                <option value="regular">Regular</option>
+                                <option value="bien">Bien</option>
+                                <option value="excelente">Excelente</option>
+                            </select>
+                            <label for="leido_idioma3">Leído</label>
+                            <select name="leido_idioma3" id="leido_idioma3">
+                                <option value="" disabled selected>- selecciona -</option>
+                                <option value="nada">Nada</option>
+                                <option value="regular">Regular</option>
+                                <option value="bien">Bien</option>
+                                <option value="excelente">Excelente</option>
+                            </select>
+                            <label for="escrito_idioma3">Escrito</label>
+                            <select name="escrito_idioma3" id="escrito_idioma3">
+                                <option value="" disabled selected>- selecciona -</option>
+                                <option value="nada">Nada</option>
+                                <option value="regular">Regular</option>
+                                <option value="bien">Bien</option>
+                                <option value="excelente">Excelente</option>
+                            </select><br><br>
+                        </fieldset>
+                        <input type="submit" value="Enviar Formulario">
+                        <input type="reset" value="Resetear Formulario">
+
+                    </form>
+                </figure>
+            </article>
+        </section>
+        <aside>
+            <div class="publicidad">
+                <h3>Publicidad</h3>
+                <a href="#"><img width="200px" src="img/publicidad.jpg" alt="Publicidad"></a>
+            </div>
+        </aside>
+    </main>
+    <hr>
+    <hr>
+    <footer>
+        <div class="footer__container">
+            <div class="fc__logo">
+                <img src="img/logo.png" alt="Logotipo" title="Logotipo" width="160">
+            </div>
+            <div class="fc__social">
+                <div class="fc__social_text">
+                    <p>También puedes visitarnos en:</p>
+                </div>
+                <div class="fc__social_logos">
+                    <div class="fc__social_logo">
+                        <a href="#"><img src="img/linkedin.png" alt="linkedin"></a>
+                    </div>
+                    <div class="fc__social_logo">
+                        <a href="#"><img src="img/facebook.png" alt="facebook"></a>
+                    </div>
+                    <div class="fc__social_logo">
+                        <a href="#"><img src="img/twitter.png" alt="twitter"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
